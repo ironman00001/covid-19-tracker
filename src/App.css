@@ -1,0 +1,78 @@
+*{
+  margin: 0 ; 
+
+}
+
+
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding:20px; 
+
+}
+
+body{
+  background-color: #f5f6fa;
+}
+
+
+.app__header>h1{
+ 
+  border-width: 1rem;
+  color: #2211bd;
+  font-size: 2rem;
+   
+}
+
+.app__dropdown
+{
+  background-color: white;
+}
+
+
+.app__header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.app__left
+{
+  flex:0.9; 
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app_right
+{
+   display: flex;
+   flex-direction: column ; 
+}
+.app_right_muiCardContent-root{
+  display: flex ;
+  flex-direction: column;
+  flex-grow: 1;
+
+}
+
+.app_graph{
+  flex-grow: 1;
+}
+
+.app__classTitle
+{
+    margin: 30px;
+    color: rgb(24, 23, 23);
+}
+
+@media( max-width:990px )
+{ 
+   .app{
+    flex-direction: column;
+  }
+ }
+
